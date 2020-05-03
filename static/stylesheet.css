@@ -1,0 +1,5 @@
+body {
+    font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;
+    /*Prevents tabs from appearing on the previous line.*/
+    white-space: nowrap;
+}
