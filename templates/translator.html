@@ -12,23 +12,17 @@
         <p><input type="submit"></p>
     </form>
     <p> Frame 1:<br />
-    <ul>
         {% for level, seq in frame1 %}
-           {% if level == 0 %}
-            </ul>
-            <li>{{ seq }}</li>
-            {% else %}
-            <ul><li>{{ seq }}</li>
-            {% endif %}
+
+            {% for i in range(0,level) %} &nbsp; {% endfor %}{{ seq }}<br />
         {% endfor %}<br />
-    </ul>
         Frame 2:<br />
-        {% for j in frame2 %}
-            &emsp;{{ j[0] }}<br />
+        {% for level, seq in frame2 %}
+            {% for i in range(0,level) %} &nbsp; {% endfor %}{{ seq }}<br />
         {% endfor %}<br />
         Frame 3:<br />
-        {% for k in frame3 %}
-            &emsp;{{ k }}<br />
+        {% for level, seq in frame3 %}
+            {% for i in range(0,level) %} &nbsp; {% endfor %}{{ seq }}<br />
         {% endfor %}<br />
     </p>
 </body>

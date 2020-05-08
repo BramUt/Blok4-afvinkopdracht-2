@@ -13,7 +13,7 @@ def translator_page():
         res = get_translations(n_seq)
         print(res)
         print(str(res))
-
+        # Voegt request.form keywords en result keywords samen.
         arguments = {**request.form, **res}
         print(arguments)
 
@@ -30,6 +30,6 @@ if __name__ == '__main__':
 # TODO: All reading frames translation
 # TODO: seq info
 # TODO: Opmaak
-# TODO Docstrings
+# TODO: Docstrings
 # TODO: grouping sub-eiwitten
-# TODO CHECK DNA/RNA
+# TODO: CHECK DNA/RNA
