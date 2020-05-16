@@ -25,11 +25,8 @@ def translator_page():
 if __name__ == '__main__':
     app.run()
 
-# TODO: Protein output
-# TODO: Protein translation
-# TODO: All reading frames translation
+
 # TODO: seq info
 # TODO: Opmaak
 # TODO: Docstrings
-# TODO: grouping sub-eiwitten
 # TODO: CHECK DNA/RNA
