@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 from translate_functions import get_translations
-# from custom_filters import c_indent
 
 app = Flask(__name__)
 
